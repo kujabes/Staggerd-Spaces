@@ -3,7 +3,8 @@ When storing large related data, chances are there will be a great deal of overl
 
 # GenericKB Dataset
 
-The initial goal will be to create a referential based way to represent the generickb dataset. We plan to collapse are duplicates until only unique instances of particular words remain, then reference words from the dictionary to minimize the space required to store the data. Fields in GenericsKB-Best.tsv are as follows:
+The initial goal will be to create a referential based way to represent the generickb dataset. We plan to collapse are duplicates until only unique instances of particular words remain, then reference words from the dictionary to minimize the space required to store the data.  
+Fields in GenericsKB-Best.tsv are as follows:
 
 - SOURCE: denotes the source of the generic
 - TERM: denotes the category that is the topic of the generic.
